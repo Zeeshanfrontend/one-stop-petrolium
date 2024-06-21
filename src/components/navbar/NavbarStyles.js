@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background-color: #fff;
-  padding: 1rem 5rem;
+  padding: 20px 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

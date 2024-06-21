@@ -12,8 +12,9 @@ const Navbar = () => {
       <Menu>
         <MenuItem to="/">Home</MenuItem>
         <MenuItem to="/services">Services</MenuItem>
-        <MenuItem to="/about">About</MenuItem>
-        <MenuItem to="/contact">Contact</MenuItem>
+        <MenuItem to="/about">About us</MenuItem>
+        <MenuItem to="/contact">Contact us</MenuItem>
+        <MenuItem to="/blogs">Blogs</MenuItem>
       </Menu>
     </Nav>
   );
