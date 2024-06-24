@@ -27,6 +27,9 @@ const GlobalStyle = createGlobalStyle`
     outline: none;
     cursor: pointer;
   }
+  input, textarea{
+    outline: none;
+  }
 `;
 
 export default GlobalStyle;

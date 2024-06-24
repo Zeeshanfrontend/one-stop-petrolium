@@ -5,6 +5,7 @@ import GlobalStyle from './GlobalStyles';
 import Home from './pages/home/Home';
 import Navbar from './components/navbar/Navbar';
 import TitleUpdater from './TitleUpdater';
+import Footer from './components/footer/Footer';
 // import Services from './pages/Services';
 // import About from './pages/About';
 // import Contact from './pages/Contact';
@@ -22,6 +23,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} /> */}
           </Routes>
+          <Footer />
       </Router>
     </>
   );

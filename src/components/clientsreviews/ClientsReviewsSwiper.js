@@ -61,6 +61,7 @@ const ClientInformation = styled.div`
     font-weight: 500;
     letter-spacing: 0.4px;
     text-align: center;
+    min-width: 120px;
   }
 `;
 
