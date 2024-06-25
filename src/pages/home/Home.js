@@ -8,18 +8,22 @@ import FeaturedWork from '../../components/featuredWork/FeaturedWork'
 import ClientsReviews from '../../components/clientsreviews/ClientsReviews'
 import FAQ from '../../components/faq/Faq'
 import ContactUsSection from '../../components/contactUs/ContactUsSection'
+import Footer from '../../components/footer/Footer'
 
 const Home = () => {
   return (
     <PageContainer>
       <AutoSwiper />
-      <OurServices />
+      <OurServices 
+        title="Our Services"
+      />
       <WhoWeAre />
       <ServiceArea />
       <FeaturedWork />
       <ClientsReviews />
       <FAQ />
       <ContactUsSection />
+      <Footer />
     </PageContainer>
   )
 }

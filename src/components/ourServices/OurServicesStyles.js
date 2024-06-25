@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const OurServicesContainer = styled.div`
- padding: 20px;
+ padding: ${props => (props.buttonProp ? '100px 20px' : '20px')};
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
  gap: 20px;
+ background: #fff;
+ width: 100%;
 
  h2{
     color: #000000;
@@ -17,11 +19,23 @@ export const OurServicesContainer = styled.div`
 
  p{
     color: #111111;
+    font-family: "Lato", Sans-serif;
     font-size: 18px;
     line-height: 26px;
     font-weight: 500;
-    max-width: 800px;
+    max-width: 850px;
     text-align: center;
+ }
+
+ button{
+   display: ${props => (props.buttonProp ? 'flex' : 'none')};
+   font-size: 17px;
+   font-weight: 600;
+   color: #FFFFFF;
+   background-color: #229B7D;
+   border-radius: 27px;
+   padding: 10px 20px;
+   font-family: "Lato", Sans-serif;
  }
 `;
 

@@ -5,10 +5,7 @@ import GlobalStyle from './GlobalStyles';
 import Home from './pages/home/Home';
 import Navbar from './components/navbar/Navbar';
 import TitleUpdater from './TitleUpdater';
-import Footer from './components/footer/Footer';
-// import Services from './pages/Services';
-// import About from './pages/About';
-// import Contact from './pages/Contact';
+import Services from './pages/services/Services';
 
 function App() {
   return (
@@ -19,11 +16,10 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/services" element={<Services />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            {/* <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} /> */}
           </Routes>
-          <Footer />
       </Router>
     </>
   );

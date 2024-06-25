@@ -7,6 +7,7 @@ justify-content: center;
 align-items: center;
 width: 100%;
 padding: 50px 20px;
+background: #fff;
 `;
 
 export const FooterContainer = styled.div`

@@ -6,6 +6,7 @@ justify-content: center;
 align-items: center;
 background: #229B7D;
 padding: 50px 20px;
+width: 100%;
 `;
 
 export const ContactUsSectionContent = styled.div`
@@ -17,7 +18,6 @@ justify-content: space-between;
 gap: 50px;
 padding: 35px;
 border-radius: 5px;
-width: 100%;
 max-width: 1140px;
 `;
 
@@ -28,18 +28,21 @@ gap: 15px;
 
 h1{
     color: #000000;
+    font-family: "Lato", Sans-serif;
     font-size: 35px;
     font-weight: 600;
 }
 
 h2{
     color: #000000;
+    font-family: "Lato", Sans-serif;
     font-size: 30px;
     font-weight: 400;
 }
 
 p{
     color: #000000;
+    font-family: "Lato", Sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -48,6 +51,7 @@ p{
 
 h3{
     color: #000000;
+    font-family: "Lato", Sans-serif;
     font-size: 26px;
     font-weight: 500;
     margin: 15px 0 0 0;
@@ -60,8 +64,10 @@ align-items: center;
 gap: 10px;
 
 p{
+    color: #54595F;
     font-size: 17px;
     font-weight: 500;
+    font-family: "Lato", Sans-serif;
 }
 `;
 
